@@ -1,0 +1,151 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"shadows": false,
+		"vr": false
+	},
+	"camera": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "D6E5BD48-C885-46C1-B438-50931AFDCEDF",
+			"type": "PerspectiveCamera",
+			"name": "Camera",
+			"layers": 1,
+			"matrix": [-0.313811,0,0.949486,0,0.377296,0.917659,0.124698,0,-0.871304,0.397369,-0.287971,0,-702.488007,320.378068,-232.176403,1],
+			"fov": 50,
+			"zoom": 1,
+			"near": 0.01,
+			"far": 1000,
+			"focus": 10,
+			"aspect": 1.824324,
+			"filmGauge": 35,
+			"filmOffset": 0
+		}
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"geometries": [
+			{
+				"uuid": "FC3BF887-83B7-48F2-8D53-1F9322F88270",
+				"type": "BufferGeometry",
+				"data": {
+					"attributes": {
+						"position": {
+							"itemSize": 3,
+							"type": "Float32Array",
+							"array": [100,-100,100,100,100,100,-100,100,100,100,-100,100,-100,100,100,-100,-100,100,100,-100,-100,100,100,-100,100,100,100,100,-100,-100,100,100,100,100,-100,100,-100,-100,-100,-100,100,-100,100,100,-100,-100,-100,-100,100,100,-100,100,-100,-100,-100,-100,100,-100,100,100,-100,100,-100,-100,-100,100,-100,100,-100,-100,-100,-100,100,100,100,100,100,-100,-100,100,-100,100,100,100,-100,100,-100,-100,100,100,100,-100,-100,100,-100,100,-100,-100,100,100,-100,-100,-100,-100,100,-100,-100,-100],
+							"normalized": false
+						},
+						"normal": {
+							"itemSize": 3,
+							"type": "Float32Array",
+							"array": [0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0],
+							"normalized": false
+						},
+						"uv": {
+							"itemSize": 2,
+							"type": "Float32Array",
+							"array": [1,0,1,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,0,1,0,0],
+							"normalized": false
+						}
+					},
+					"boundingSphere": {
+						"center": [0,0,0],
+						"radius": 173.205081
+					}
+				}
+			}],
+		"materials": [
+			{
+				"uuid": "EE4B9ED8-9A3A-40F5-967F-5BE6CBF2DA76",
+				"type": "MeshPhongMaterial",
+				"color": 16715021,
+				"emissive": 16777215,
+				"specular": 9408399,
+				"shininess": 30,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true,
+				"stencilWrite": false,
+				"stencilWriteMask": 255,
+				"stencilFunc": 519,
+				"stencilRef": 0,
+				"stencilFuncMask": 255,
+				"stencilFail": 7680,
+				"stencilZFail": 7680,
+				"stencilZPass": 7680,
+				"wireframe": true
+			}],
+		"object": {
+			"uuid": "425C2E6D-9E69-437D-8787-A1932D752578",
+			"type": "Scene",
+			"name": "Scene",
+			"layers": 1,
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"children": [
+				{
+					"uuid": "81439322-FB27-42AC-AB4C-61BB84D1CDD5",
+					"type": "Group",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+					"children": [
+						{
+							"uuid": "1FED99FE-952E-4061-A087-BD4F9CCA4C60",
+							"type": "PerspectiveCamera",
+							"name": "CINEMA_4D_Editor",
+							"userData": {
+								"transformData": {
+									"eulerOrder": "ZYX",
+									"translation": [677.768903,363.642677,1009.93952],
+									"rotation": [-11.901269,33.501268,0],
+									"postRotation": [0,-90,0],
+									"scale": [1,1,1],
+									"parentMatrixWorld": {
+										"elements": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+									}
+								}
+							},
+							"layers": 1,
+							"matrix": [-0.412174,0.313174,0.85559,0,-0.02946,0.933997,-0.356065,0,-0.910629,-0.171966,-0.375744,0,677.768903,363.642677,1009.93952,1],
+							"fov": 30.585975,
+							"zoom": 1,
+							"near": 0.000001,
+							"far": 10,
+							"focus": 10,
+							"aspect": 1.777778,
+							"filmGauge": 35,
+							"filmOffset": 0
+						},
+						{
+							"uuid": "6C7DFE26-2AC1-45C5-9D17-9C0DCEFCACAF",
+							"type": "Mesh",
+							"name": "Cube",
+							"userData": {
+								"transformData": {
+									"eulerOrder": "ZYX",
+									"translation": [0,87.577528,0],
+									"parentMatrixWorld": {
+										"elements": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+									}
+								}
+							},
+							"layers": 1,
+							"matrix": [0.987116,0,-0.160004,0,0,1,0,0,0.160004,0,0.987116,0,0,101.936333,0,1],
+							"geometry": "FC3BF887-83B7-48F2-8D53-1F9322F88270",
+							"material": "EE4B9ED8-9A3A-40F5-967F-5BE6CBF2DA76"
+						}]
+				}]
+		}
+	},
+	"scripts": {}
+}
